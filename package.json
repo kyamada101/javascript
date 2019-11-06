@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\babel . --out-dir compiled",
+    "start": "./node_modules/.bin/babel . --out-dir dist && node compiled/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "babelify": "^10.0.0"
+  }
+}
